@@ -95,14 +95,16 @@ class UserController extends Controller
         $request = Yii::app()->request;
         if(isset($_POST['User'])){
             $model->attributes = $_POST['User'];
-            $model->save();
-            $this->redirect('admin');
+            if($model->save()){
+                $this->redirect(['user-grid','is_ajax' => true]);
+            }
         }
 
 		$this->renderPartial('update',array(
 			'model'=>$model,
 		),false,true);
 	}
+
 
 	/**
 	 * Deletes a particular model.
@@ -138,6 +140,9 @@ class UserController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['User']))
 			$model->attributes=$_GET['User'];
+		if(isset($_GET['is_ajax'])){
+		    $this->renderPartial('user_grid',['model' => $model]);
+        }
 
 		$this->render('admin',array(
 			'model'=>$model,

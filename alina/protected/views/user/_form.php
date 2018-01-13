@@ -10,10 +10,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl .
 Yii::app()->clientScript->registerScript('sendAjax',
     '
         $("#user-form").ajaxForm({
-            target: ".modal-body",
-            success: function(resText){
-                
-            }
+            target: ".modal-body"
         });
     ');
 ?>

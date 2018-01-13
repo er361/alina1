@@ -1556,3 +1556,122 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/alina/bs3/bootstrap.min.css.map
 ---
+2018/01/13 18:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bs3/bootstrap.min.css.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('bs3/bootstrap.m...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/bs3/bootstrap.min.css.map
+---
+2018/01/13 18:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.form.min.js.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.form.min...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/jquery.form.min.js.map
+---
+2018/01/13 18:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user-grid".' in C:\OSPanel\domains\alina1.dev\framework\web\CController.php:486
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CController.php(270): CController->missingAction('user-grid')
+#1 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(282): CController->run('user-grid')
+#2 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user-grid/...')
+#3 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/alina/user/user-grid/is_ajax/1
+HTTP_REFERER=http://alina1.index/alina/admin
+---
+2018/01/13 18:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user-grid".' in C:\OSPanel\domains\alina1.dev\framework\web\CController.php:486
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CController.php(270): CController->missingAction('user-grid')
+#1 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(282): CController->run('user-grid')
+#2 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user-grid/...')
+#3 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/alina/user/user-grid/is_ajax/1
+HTTP_REFERER=http://alina1.index/alina/admin
+---
+2018/01/13 18:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bs3/bootstrap.min.css.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('bs3/bootstrap.m...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/bs3/bootstrap.min.css.map
+---
+2018/01/13 18:18:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.form.min.js.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.form.min...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/jquery.form.min.js.map
+---
+2018/01/13 18:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user-grid".' in C:\OSPanel\domains\alina1.dev\framework\web\CController.php:486
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CController.php(270): CController->missingAction('user-grid')
+#1 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(282): CController->run('user-grid')
+#2 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user-grid/...')
+#3 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/alina/user/user-grid/is_ajax/1
+HTTP_REFERER=http://alina1.index/alina/admin
+---
+2018/01/13 18:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bs3/bootstrap.min.css.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('bs3/bootstrap.m...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/bs3/bootstrap.min.css.map
+---
+2018/01/13 18:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.form.min.js.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.form.min...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/jquery.form.min.js.map
+---
+2018/01/13 18:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user-grid".' in C:\OSPanel\domains\alina1.dev\framework\web\CController.php:486
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CController.php(270): CController->missingAction('user-grid')
+#1 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(282): CController->run('user-grid')
+#2 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user-grid/...')
+#3 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/alina/user/user-grid/0%5Bis_ajax%5D/1
+HTTP_REFERER=http://alina1.index/alina/admin
+---
+2018/01/13 18:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bs3/bootstrap.min.css.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('bs3/bootstrap.m...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/bs3/bootstrap.min.css.map
+---
+2018/01/13 18:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.form.min.js.map".' in C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.form.min...')
+#1 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/alina/jquery.form.min.js.map
+---
+2018/01/13 18:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user-grid".' in C:\OSPanel\domains\alina1.dev\framework\web\CController.php:486
+Stack trace:
+#0 C:\OSPanel\domains\alina1.dev\framework\web\CController.php(270): CController->missingAction('user-grid')
+#1 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(282): CController->run('user-grid')
+#2 C:\OSPanel\domains\alina1.dev\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user-grid/...')
+#3 C:\OSPanel\domains\alina1.dev\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\alina1.dev\alina\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/alina/user/user-grid/0%5Bis_ajax%5D/1
+HTTP_REFERER=http://alina1.index/alina/admin
+---
